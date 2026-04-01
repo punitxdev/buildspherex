@@ -1,0 +1,57 @@
+.vote-button {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.vote-button.vertical {
+  flex-direction: column;
+}
+
+.vote-button.horizontal {
+  flex-direction: row;
+  gap: 6px;
+}
+
+.vote-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 28px;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  transition: all var(--transition-fast);
+}
+
+.vote-arrow:hover {
+  background: var(--bg-glass-hover);
+  color: var(--text-primary);
+}
+
+.vote-arrow.active.upvoted {
+  color: var(--accent-green);
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.vote-arrow.active.downvoted {
+  color: var(--accent-rose);
+  background: rgba(236, 72, 153, 0.1);
+}
+
+.vote-count {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  min-width: 24px;
+  text-align: center;
+  transition: color var(--transition-fast);
+}
+
+.vote-count.upvoted {
+  color: var(--accent-green);
+}
+
+.vote-count.downvoted {
+  color: var(--accent-rose);
+}

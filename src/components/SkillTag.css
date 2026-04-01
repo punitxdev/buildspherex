@@ -1,0 +1,22 @@
+.skill-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tag-color);
+  background: var(--tag-bg);
+  border: 1px solid var(--tag-border);
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+}
+
+.skill-tag:hover {
+  filter: brightness(1.2);
+}
+
+.skill-tag.small {
+  padding: 2px 8px;
+  font-size: 11px;
+}

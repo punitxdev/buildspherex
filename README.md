@@ -49,4 +49,4 @@ To run BuildSphereX locally on your machine:
    ```
 
 ## 🤝 Contribution Guidelines
-Since this is an active campus initiative, contributions are extremely welcome! Whether it's adding a new feature, fixing a routing bug, or improving the UI, feel free to fork the repository and submit a Pull Request!
+Since this is an active campus initiative, contributions are extremely welcome! Whether it's adding a new feature, fixing a routing bug, or improving the UI, feel free to fork the repository and submit a Pull Request! **Your contribution is highly appreciated!**

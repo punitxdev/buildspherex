@@ -52,15 +52,6 @@ export default function About() {
     },
   ];
 
-  const team = [
-    { name: 'Punit Kumar', role: 'Founder & Tech Lead', dept: 'EP', initials: 'PK', color: '#0891b2' },
-    { name: 'Anant Tripathi', role: 'Co-Founder & Strategy', dept: 'Maths & Computing', initials: 'AT', color: '#8b5cf6' },
-    { name: 'Mandeep Singh Tomar', role: 'Tech Lead', dept: 'Chem', initials: 'MT', color: '#3b82f6' },
-    { name: 'Rahul Ahirwar', role: 'Design Lead', dept: 'CSE', initials: 'RA', color: '#0e7490' },
-    { name: 'Yash Panname', role: 'Co-Design Lead', dept: 'EP', initials: 'YP', color: '#10b981' },
-    { name: 'Vaibhav Pagare', role: 'Engineering & Ops', dept: 'Mechanical', initials: 'VP', color: '#f59e0b' },
-  ];
-
   const milestones = [
     { year: '2016', event: 'IIT Dharwad Founded', detail: '23rd IIT, mentored by IIT Bombay' },
     { year: '2022', event: 'dhaRti Foundation', detail: 'Tech incubator established on campus' },
@@ -260,26 +251,6 @@ export default function About() {
                 <div className="timeline-v3-year">{m.year}</div>
                 <div className="timeline-v3-event">{m.event}</div>
                 <div className="timeline-v3-detail">{m.detail}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══ TEAM — Magazine Grid ═══ */}
-      <section className="about-team-v3">
-        <div className="container">
-          <div className="team-v3-header">
-            <span className="section-label-v3">The Humans</span>
-            <h2>Built by Students Who Get It</h2>
-          </div>
-          <div className="team-v3-grid">
-            {team.map((t, i) => (
-              <div key={i} className="team-v3-card" style={{ '--team-color': t.color }}>
-                <div className="team-v3-avatar">{t.initials}</div>
-                <h4>{t.name}</h4>
-                <p className="team-v3-role">{t.role}</p>
-                <span className="team-v3-dept">{t.dept}, IIT Dharwad</span>
               </div>
             ))}
           </div>

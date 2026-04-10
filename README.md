@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🚀 BuildSphereX
+# BuildSphereX
 
-### _Where campus innovators connect, collaborate, and build_
+### Where campus innovators connect, collaborate, and build.
 
 <br>
 
@@ -15,11 +15,11 @@
 
 <br>
 
-A full-stack **MERN** platform for student startups — pitch ideas, recruit collaborators, discuss tech, and build the future together. Featuring JWT authentication, real-time forums, idea boards with voting, and a premium glassmorphism UI.
+A full-stack **MERN** platform designed for student startups. The platform facilitates idea pitching, collaborator recruitment, technical discussion, and collaborative building. Features include robust JWT authentication, active forum channels, idea boards with voting mechanics, and a polished user interface.
 
 <br>
 
-> ⚠️ **Status:** Actively under development — this is a core initiative driving **startup culture** across campus!
+> **Status:** Actively under development. This platform serves as a core initiative driving startup culture across the campus network.
 
 ---
 
@@ -27,56 +27,55 @@ A full-stack **MERN** platform for student startups — pitch ideas, recruit col
 
 <br>
 
-## 🌟 The Vision
+## The Vision
 
-The university ecosystem is filled with brilliant minds, but finding co-founders, discussing technical roadblocks, and getting incubation support is incredibly fragmented. **BuildSphereX** bridges that gap — a centralized hub where students can pitch ideas, form teams, and bring innovations to life.
+The university ecosystem inherently contains driven technical executioner profiles, but sourcing co-founders, iterating through technical roadblocks, and attaining incubation support can become highly fragmented. **BuildSphereX** functions to bridge that gap — establishing a centralized digital hub where active students can pitch technical concepts, assemble execution teams, and deploy functional innovations.
 
 <br>
 
-## 🎯 Core Features
+## Core Features
 
 <table>
 <tr>
 <td width="50%">
 
-### 💡 Idea Hub
-- **Post startup ideas** with descriptions & skill tags
-- **Upvote/downvote** system to surface the best ideas
-- **Join requests** — request to collaborate on ideas
-- **Collaborator avatars** — see who's building what
-- **Detailed idea pages** with comments & discussions
+### Idea Hub
+- **Post startup ideas** combined with technical descriptions and integrated skill tags.
+- **Vote validation system** structured to optimally surface validated concepts.
+- **Join requests** permitting active collaboration requests on existing ideas.
+- **Collaborator presentation** mapping identifying active component contributors.
+- **Detailed structural view** allowing comments and integrated discussions.
 
 </td>
 <td width="50%">
 
-### 🗣️ Discussion Forums
-- **Create forum threads** on any topic
-- **Comment system** with nested discussions
-- **Category tagging** — frameworks, hardware, pitching
-- **Real-time engagement** — likes, replies, threads
-- **Search & filter** through discussions
+### Discussion Forums
+- **Create forum threads** designated for explicit domain topics.
+- **Comment system** designed around nested hierarchical discussion paths.
+- **Category tagging** supporting framework, hardware, and deployment channels.
+- **Active engagement models** utilizing likes, replies, and threaded tracking.
+- **Search and filter** operations across historical aggregated discussions.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🔐 Authentication & Profiles
-- **JWT-based** secure login & registration
-- **Dynamic profiles** — skills, projects, academic info
-- **Edit profile** — update your showcase anytime
-- **Protected routes** — secure access control
-- **Contact modal** — reach out to other builders
+### Authentication & Profiles
+- **JWT-based** integration securing login and account registration phases.
+- **Dynamic profiles** supporting technical skills, project links, and academic history.
+- **Profile operations** permitting continual update modifications dynamically.
+- **Protected routing logic** guaranteeing controlled secure component access.
+- **Contact integrations** enabling interaction with verified network builders.
 
 </td>
 <td width="50%">
 
-### 📢 Platform Features
-- **Dashboard** — personalized feed & activity
-- **Announcements** — hackathons, funding, tech meets
-- **Skill tags** — MERN, AI/ML, Embedded Systems, etc.
-- **About page** — platform mission & team
-- **Responsive design** — works on all devices
+### Platform Operations
+- **Aggregated Dashboard** yielding personalized activity mappings and targeted feeds.
+- **Announcements pipeline** spanning hackathons, technical meets, and networking options.
+- **Skill mappings** such as MERN, AI/ML, and Embedded System tagging protocols.
+- **Responsive deployment architecture** mapping rendering cleanly across standard mobile devices.
 
 </td>
 </tr>
@@ -84,27 +83,27 @@ The university ecosystem is filled with brilliant minds, but finding co-founders
 
 <br>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-| Layer | Tech | Purpose |
+| Layer | Technology | Purpose |
 |---|---|---|
-| **Frontend** | React 19 + Vite 8 | Fast SPA with hot reload |
-| **Routing** | React Router v7 | Client-side navigation |
-| **State** | Context API | Global auth & app state |
-| **HTTP** | Axios | API communication |
-| **Icons** | Lucide React | Clean SVG icon library |
-| **Styling** | Vanilla CSS | Premium glassmorphism UI |
-| **Backend** | Node.js + Express.js | REST API server |
-| **Database** | MongoDB + Mongoose | Document-based storage |
-| **Auth** | JWT + bcrypt | Secure token authentication |
+| **Frontend** | React 19 + Vite 8 | Single Page Application framework emphasizing fast execution protocols. |
+| **Routing** | React Router v7 | Structured client-side navigational pathing. |
+| **State** | Context API | Distributed global state representation encompassing authentication arrays. |
+| **HTTP** | Axios | Dedicated interface for Promise-based structured API communication. |
+| **Icons** | Lucide React | Uniform SVG icon representation library mapping cleanly to components. |
+| **Styling** | Vanilla CSS | Comprehensive variable-driven custom styled interface mechanics. |
+| **Backend** | Node.js + Express.js | Core scalable REST application programming interface framework. |
+| **Database** | MongoDB + Mongoose | Active document-oriented hierarchical cloud storage integration. |
+| **Authentication** | JWT + bcrypt | Immutable token-based secure authorization protocols. |
 
 <br>
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
-- **Node.js v20+** (uses modern ES modules)
-- **MongoDB** running locally or a cloud URI
+- **Node.js v20+** (Required for ES Module runtime dependencies).
+- **MongoDB** (Executing via local host daemon or defined URI remote cluster).
 
 ### 1. Clone
 
@@ -124,72 +123,55 @@ npm run dev
 ### 3. Start Frontend
 
 ```bash
-# In a new terminal, from project root
+# In a new terminal context, starting from root path:
 npm install
 npm run dev
 ```
 
-> Frontend runs on **http://localhost:5173** • Backend API on **http://localhost:5000**
+> **Frontend port binding:** http://localhost:5173 • **Backend API port binding:** http://localhost:5000
 
 <br>
 
-## 📁 Project Structure
+## Project Structure
 
-```
-📦 BuildSphereX
- ┣ 📂 src/                        → React Frontend
- ┃  ┣ 📂 pages/
- ┃  ┃  ┣ 🏠 Home                  → Landing page
- ┃  ┃  ┣ 📊 Dashboard             → Personalized feed & activity
- ┃  ┃  ┣ 💡 Ideas / PostIdea      → Browse & submit startup ideas
- ┃  ┃  ┣ 🔍 IdeaDetail            → Full idea view with comments
- ┃  ┃  ┣ 🗣️ Forums / ForumThread  → Discussion boards
- ┃  ┃  ┣ 👤 Profile / EditProfile → User profiles
- ┃  ┃  ┣ 🔐 Login / Register      → Authentication
- ┃  ┃  ┗ ℹ️ About                  → Platform info
- ┃  ┣ 📂 components/              → Navbar, Footer, IdeaCard, VoteButton, etc.
- ┃  ┣ 📂 context/                 → Auth & app state (Context API)
- ┃  ┗ 📂 services/                → Axios API service layer
- ┃
- ┣ 📂 server/                     → Express Backend
- ┃  ┣ 📂 models/                  → User, Idea, ForumPost, Announcement, JoinRequest
- ┃  ┣ 📂 routes/                  → auth, ideas, forums, users, announcements, joinRequests
- ┃  ┣ 📂 middleware/              → JWT auth middleware
- ┃  ┣ 📂 config/                  → Database connection
- ┃  ┗ 🌱 seed.js                  → Database seeder script
- ┃
- ┗ 📄 vite.config.js              → Vite build configuration
+```text
+BuildSphereX
+ ├── src/                        → Primary React Frontend Runtime
+ │  ├── pages/
+ │  │  ├── Home                  → Initial landing presentation layout
+ │  │  ├── Dashboard             → Aggregated personalized feed mapping
+ │  │  ├── Ideas / PostIdea      → System hub for evaluating concepts and submitting
+ │  │  ├── IdeaDetail            → Individual focus container with attached commentary
+ │  │  ├── Forums / ForumThread  → Threaded operational domain discussion maps
+ │  │  ├── Profile / EditProfile → Central presentation for user configurations
+ │  │  ├── Login / Register      → Authorization portals
+ │  │  └── About                 → General structural platform overview
+ │  ├── components/              → Modular encapsulated component segments
+ │  ├── context/                 → Root-level global State mapping (Context API)
+ │  └── services/                → Functional HTTP protocol endpoints architecture
+ │
+ ├── server/                     → Primary Express Backend Runtime
+ │  ├── models/                  → Standard Document mappings via Mongoose schema
+ │  ├── routes/                  → Network routing controllers (auth, forums, ideas)
+ │  ├── middleware/              → Request interception routines securing JWT tokens
+ │  ├── config/                  → Active datastream connections
+ │  └── seed.js                  → Integrated database initialization testing script
+ │
+ └── vite.config.js              → Executable compilation variables
 ```
 
 <br>
 
-## 🤝 Contributing
+## Contributing
 
-Since this is an active campus initiative, contributions are extremely welcome!
+As this platform operates as an active internal initiative, development contributions are heavily supported and encouraged.
 
 ```bash
-# Fork → Branch → Commit → Push → PR
 git checkout -b feature/new-page
-git commit -m "Add mentorship matching feature"
+git commit -m "Initialize structural mentorship mapping feature"
 git push origin feature/new-page
 ```
 
-Whether it's a new feature, a bug fix, or a UI improvement — your contribution is highly appreciated! 🙌
+Contributions covering new iterations, system stabilization implementations, and component improvements are appreciated.
 
 <br>
-
-## 📄 License
-
-Open source under the [MIT License](LICENSE).
-
-<br>
-
-<div align="center">
-
----
-
-**Made with ❤️ by [punitxdev](https://github.com/punitxdev)**
-
-_If you found this useful, give it a ⭐!_
-
-</div>
